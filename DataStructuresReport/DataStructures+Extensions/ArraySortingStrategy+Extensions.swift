@@ -29,3 +29,8 @@ extension ArraySortingStrategy {
         }
     }
 }
+
+extension ArraySortingStrategy: Identifiable {
+    public typealias ID = String
+    public var id: String { title }
+}
