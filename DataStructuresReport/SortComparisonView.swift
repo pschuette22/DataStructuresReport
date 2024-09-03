@@ -16,7 +16,7 @@ struct Measurement: Hashable {
 
 
 
-struct ContentView: View {
+struct SortComparisonView: View {
     typealias BoundCalculator = (Int) -> Int
 
     @State private var chartBounds: ChartBounds = .init()
@@ -93,7 +93,7 @@ struct ContentView: View {
 
 // MARK: - ChartBounds
 
-extension ContentView {
+extension SortComparisonView {
     struct ChartBounds: Identifiable, Equatable {
         typealias ID = String
         var id: String {
@@ -106,7 +106,7 @@ extension ContentView {
 }
 
 #Preview {
-    ContentView() {
+    SortComparisonView() {
         10 * $0
     }
 }

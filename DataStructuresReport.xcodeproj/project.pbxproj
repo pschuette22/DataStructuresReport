@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		499162B82C86827E00E71C98 /* DataStructuresReportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162B72C86827E00E71C98 /* DataStructuresReportApp.swift */; };
-		499162BA2C86827E00E71C98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162B92C86827E00E71C98 /* ContentView.swift */; };
+		499162BA2C86827E00E71C98 /* SortComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162B92C86827E00E71C98 /* SortComparisonView.swift */; };
 		499162BC2C86828100E71C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499162BB2C86828100E71C98 /* Assets.xcassets */; };
 		499162BF2C86828100E71C98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499162BE2C86828100E71C98 /* Preview Assets.xcassets */; };
 		499162CA2C86828200E71C98 /* DataStructuresReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162C92C86828200E71C98 /* DataStructuresReportTests.swift */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		499162B42C86827E00E71C98 /* DataStructuresReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructuresReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499162B72C86827E00E71C98 /* DataStructuresReportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresReportApp.swift; sourceTree = "<group>"; };
-		499162B92C86827E00E71C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		499162B92C86827E00E71C98 /* SortComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortComparisonView.swift; sourceTree = "<group>"; };
 		499162BB2C86828100E71C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499162BE2C86828100E71C98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		499162C02C86828100E71C98 /* DataStructuresReport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataStructuresReport.entitlements; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				499162E52C86974100E71C98 /* DataStructures+Extensions */,
 				499162B72C86827E00E71C98 /* DataStructuresReportApp.swift */,
-				499162B92C86827E00E71C98 /* ContentView.swift */,
+				499162B92C86827E00E71C98 /* SortComparisonView.swift */,
 				499162BB2C86828100E71C98 /* Assets.xcassets */,
 				499162C02C86828100E71C98 /* DataStructuresReport.entitlements */,
 				499162BD2C86828100E71C98 /* Preview Content */,
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499162E92C86B5B300E71C98 /* MeasurementRepo.swift in Sources */,
-				499162BA2C86827E00E71C98 /* ContentView.swift in Sources */,
+				499162BA2C86827E00E71C98 /* SortComparisonView.swift in Sources */,
 				499162B82C86827E00E71C98 /* DataStructuresReportApp.swift in Sources */,
 				499162E72C86975800E71C98 /* ArraySortingStrategy+Extensions.swift in Sources */,
 			);
