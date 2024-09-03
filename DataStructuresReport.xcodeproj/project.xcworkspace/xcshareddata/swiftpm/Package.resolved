@@ -1,0 +1,15 @@
+{
+  "originHash" : "2a8ac0f3d6dc0cb74ab6127e20af187254c2926473cf00a259481bac02d359d7",
+  "pins" : [
+    {
+      "identity" : "swift-data-structures",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pschuette22/swift-data-structures",
+      "state" : {
+        "revision" : "33009eb6e3af0b917a3c1072033d6d2879881cd0",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

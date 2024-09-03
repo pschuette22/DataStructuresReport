@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499162B82C86827E00E71C98 /* DataStructuresReportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162B72C86827E00E71C98 /* DataStructuresReportApp.swift */; };
+		499162BA2C86827E00E71C98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162B92C86827E00E71C98 /* ContentView.swift */; };
+		499162BC2C86828100E71C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499162BB2C86828100E71C98 /* Assets.xcassets */; };
+		499162BF2C86828100E71C98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499162BE2C86828100E71C98 /* Preview Assets.xcassets */; };
+		499162CA2C86828200E71C98 /* DataStructuresReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162C92C86828200E71C98 /* DataStructuresReportTests.swift */; };
+		499162D42C86828200E71C98 /* DataStructuresReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162D32C86828200E71C98 /* DataStructuresReportUITests.swift */; };
+		499162D62C86828200E71C98 /* DataStructuresReportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162D52C86828200E71C98 /* DataStructuresReportUITestsLaunchTests.swift */; };
+		499162E42C86839E00E71C98 /* DataStructures in Frameworks */ = {isa = PBXBuildFile; productRef = 499162E32C86839E00E71C98 /* DataStructures */; };
+		499162E72C86975800E71C98 /* ArraySortingStrategy+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162E62C86975800E71C98 /* ArraySortingStrategy+Extensions.swift */; };
+		499162E92C86B5B300E71C98 /* MeasurementRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499162E82C86B5B300E71C98 /* MeasurementRepo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499162C62C86828200E71C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499162AC2C86827E00E71C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499162B32C86827E00E71C98;
+			remoteInfo = DataStructuresReport;
+		};
+		499162D02C86828200E71C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499162AC2C86827E00E71C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499162B32C86827E00E71C98;
+			remoteInfo = DataStructuresReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499162B42C86827E00E71C98 /* DataStructuresReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructuresReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499162B72C86827E00E71C98 /* DataStructuresReportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresReportApp.swift; sourceTree = "<group>"; };
+		499162B92C86827E00E71C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		499162BB2C86828100E71C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499162BE2C86828100E71C98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		499162C02C86828100E71C98 /* DataStructuresReport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataStructuresReport.entitlements; sourceTree = "<group>"; };
+		499162C52C86828200E71C98 /* DataStructuresReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499162C92C86828200E71C98 /* DataStructuresReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresReportTests.swift; sourceTree = "<group>"; };
+		499162CF2C86828200E71C98 /* DataStructuresReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499162D32C86828200E71C98 /* DataStructuresReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresReportUITests.swift; sourceTree = "<group>"; };
+		499162D52C86828200E71C98 /* DataStructuresReportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresReportUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		499162E62C86975800E71C98 /* ArraySortingStrategy+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArraySortingStrategy+Extensions.swift"; sourceTree = "<group>"; };
+		499162E82C86B5B300E71C98 /* MeasurementRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementRepo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499162B12C86827E00E71C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499162E42C86839E00E71C98 /* DataStructures in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499162C22C86828200E71C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499162CC2C86828200E71C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499162AB2C86827E00E71C98 = {
+			isa = PBXGroup;
+			children = (
+				499162B62C86827E00E71C98 /* DataStructuresReport */,
+				499162C82C86828200E71C98 /* DataStructuresReportTests */,
+				499162D22C86828200E71C98 /* DataStructuresReportUITests */,
+				499162B52C86827E00E71C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499162B52C86827E00E71C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499162B42C86827E00E71C98 /* DataStructuresReport.app */,
+				499162C52C86828200E71C98 /* DataStructuresReportTests.xctest */,
+				499162CF2C86828200E71C98 /* DataStructuresReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499162B62C86827E00E71C98 /* DataStructuresReport */ = {
+			isa = PBXGroup;
+			children = (
+				499162E52C86974100E71C98 /* DataStructures+Extensions */,
+				499162B72C86827E00E71C98 /* DataStructuresReportApp.swift */,
+				499162B92C86827E00E71C98 /* ContentView.swift */,
+				499162BB2C86828100E71C98 /* Assets.xcassets */,
+				499162C02C86828100E71C98 /* DataStructuresReport.entitlements */,
+				499162BD2C86828100E71C98 /* Preview Content */,
+				499162E82C86B5B300E71C98 /* MeasurementRepo.swift */,
+			);
+			path = DataStructuresReport;
+			sourceTree = "<group>";
+		};
+		499162BD2C86828100E71C98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				499162BE2C86828100E71C98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		499162C82C86828200E71C98 /* DataStructuresReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				499162C92C86828200E71C98 /* DataStructuresReportTests.swift */,
+			);
+			path = DataStructuresReportTests;
+			sourceTree = "<group>";
+		};
+		499162D22C86828200E71C98 /* DataStructuresReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				499162D32C86828200E71C98 /* DataStructuresReportUITests.swift */,
+				499162D52C86828200E71C98 /* DataStructuresReportUITestsLaunchTests.swift */,
+			);
+			path = DataStructuresReportUITests;
+			sourceTree = "<group>";
+		};
+		499162E52C86974100E71C98 /* DataStructures+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				499162E62C86975800E71C98 /* ArraySortingStrategy+Extensions.swift */,
+			);
+			path = "DataStructures+Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499162B32C86827E00E71C98 /* DataStructuresReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499162D92C86828200E71C98 /* Build configuration list for PBXNativeTarget "DataStructuresReport" */;
+			buildPhases = (
+				499162B02C86827E00E71C98 /* Sources */,
+				499162B12C86827E00E71C98 /* Frameworks */,
+				499162B22C86827E00E71C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructuresReport;
+			packageProductDependencies = (
+				499162E32C86839E00E71C98 /* DataStructures */,
+			);
+			productName = DataStructuresReport;
+			productReference = 499162B42C86827E00E71C98 /* DataStructuresReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499162C42C86828200E71C98 /* DataStructuresReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499162DC2C86828200E71C98 /* Build configuration list for PBXNativeTarget "DataStructuresReportTests" */;
+			buildPhases = (
+				499162C12C86828200E71C98 /* Sources */,
+				499162C22C86828200E71C98 /* Frameworks */,
+				499162C32C86828200E71C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499162C72C86828200E71C98 /* PBXTargetDependency */,
+			);
+			name = DataStructuresReportTests;
+			productName = DataStructuresReportTests;
+			productReference = 499162C52C86828200E71C98 /* DataStructuresReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499162CE2C86828200E71C98 /* DataStructuresReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499162DF2C86828200E71C98 /* Build configuration list for PBXNativeTarget "DataStructuresReportUITests" */;
+			buildPhases = (
+				499162CB2C86828200E71C98 /* Sources */,
+				499162CC2C86828200E71C98 /* Frameworks */,
+				499162CD2C86828200E71C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499162D12C86828200E71C98 /* PBXTargetDependency */,
+			);
+			name = DataStructuresReportUITests;
+			productName = DataStructuresReportUITests;
+			productReference = 499162CF2C86828200E71C98 /* DataStructuresReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499162AC2C86827E00E71C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					499162B32C86827E00E71C98 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					499162C42C86828200E71C98 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 499162B32C86827E00E71C98;
+					};
+					499162CE2C86828200E71C98 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 499162B32C86827E00E71C98;
+					};
+				};
+			};
+			buildConfigurationList = 499162AF2C86827E00E71C98 /* Build configuration list for PBXProject "DataStructuresReport" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499162AB2C86827E00E71C98;
+			packageReferences = (
+				499162E22C86839E00E71C98 /* XCRemoteSwiftPackageReference "swift-data-structures" */,
+			);
+			productRefGroup = 499162B52C86827E00E71C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499162B32C86827E00E71C98 /* DataStructuresReport */,
+				499162C42C86828200E71C98 /* DataStructuresReportTests */,
+				499162CE2C86828200E71C98 /* DataStructuresReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499162B22C86827E00E71C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499162BF2C86828100E71C98 /* Preview Assets.xcassets in Resources */,
+				499162BC2C86828100E71C98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499162C32C86828200E71C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499162CD2C86828200E71C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499162B02C86827E00E71C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499162E92C86B5B300E71C98 /* MeasurementRepo.swift in Sources */,
+				499162BA2C86827E00E71C98 /* ContentView.swift in Sources */,
+				499162B82C86827E00E71C98 /* DataStructuresReportApp.swift in Sources */,
+				499162E72C86975800E71C98 /* ArraySortingStrategy+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499162C12C86828200E71C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499162CA2C86828200E71C98 /* DataStructuresReportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499162CB2C86828200E71C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499162D62C86828200E71C98 /* DataStructuresReportUITestsLaunchTests.swift in Sources */,
+				499162D42C86828200E71C98 /* DataStructuresReportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499162C72C86828200E71C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499162B32C86827E00E71C98 /* DataStructuresReport */;
+			targetProxy = 499162C62C86828200E71C98 /* PBXContainerItemProxy */;
+		};
+		499162D12C86828200E71C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499162B32C86827E00E71C98 /* DataStructuresReport */;
+			targetProxy = 499162D02C86828200E71C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		499162D72C86828200E71C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499162D82C86828200E71C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		499162DA2C86828200E71C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DataStructuresReport/DataStructuresReport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataStructuresReport/Preview Content\"";
+				DEVELOPMENT_TEAM = 384WS8QBWW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.palmtreeprogramming.DataStructuresReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		499162DB2C86828200E71C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DataStructuresReport/DataStructuresReport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataStructuresReport/Preview Content\"";
+				DEVELOPMENT_TEAM = 384WS8QBWW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.palmtreeprogramming.DataStructuresReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		499162DD2C86828200E71C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 384WS8QBWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.palmtreeprogramming.DataStructuresReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataStructuresReport.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataStructuresReport";
+			};
+			name = Debug;
+		};
+		499162DE2C86828200E71C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 384WS8QBWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.palmtreeprogramming.DataStructuresReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataStructuresReport.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataStructuresReport";
+			};
+			name = Release;
+		};
+		499162E02C86828200E71C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 384WS8QBWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.palmtreeprogramming.DataStructuresReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DataStructuresReport;
+			};
+			name = Debug;
+		};
+		499162E12C86828200E71C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 384WS8QBWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.palmtreeprogramming.DataStructuresReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DataStructuresReport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499162AF2C86827E00E71C98 /* Build configuration list for PBXProject "DataStructuresReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499162D72C86828200E71C98 /* Debug */,
+				499162D82C86828200E71C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499162D92C86828200E71C98 /* Build configuration list for PBXNativeTarget "DataStructuresReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499162DA2C86828200E71C98 /* Debug */,
+				499162DB2C86828200E71C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499162DC2C86828200E71C98 /* Build configuration list for PBXNativeTarget "DataStructuresReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499162DD2C86828200E71C98 /* Debug */,
+				499162DE2C86828200E71C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499162DF2C86828200E71C98 /* Build configuration list for PBXNativeTarget "DataStructuresReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499162E02C86828200E71C98 /* Debug */,
+				499162E12C86828200E71C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		499162E22C86839E00E71C98 /* XCRemoteSwiftPackageReference "swift-data-structures" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pschuette22/swift-data-structures";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		499162E32C86839E00E71C98 /* DataStructures */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 499162E22C86839E00E71C98 /* XCRemoteSwiftPackageReference "swift-data-structures" */;
+			productName = DataStructures;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 499162AC2C86827E00E71C98 /* Project object */;
+}
