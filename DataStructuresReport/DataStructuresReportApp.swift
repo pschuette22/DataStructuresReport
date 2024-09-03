@@ -11,7 +11,10 @@ import SwiftUI
 struct DataStructuresReportApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Text("Comparision of Data Structures")
+                .font(.largeTitle)
+                .padding(.all, 24)
+            SortComparisonView()
         }
     }
 }
